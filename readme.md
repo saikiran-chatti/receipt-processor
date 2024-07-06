@@ -1,6 +1,4 @@
-Certainly! Here's a professional README for your Receipt Processor project:
 
-```markdown
 # Receipt Processor
 
 ## Overview
@@ -94,23 +92,3 @@ curl -X POST http://localhost:8080/receipts/process \
 ```bash
 curl http://localhost:8080/receipts/7c32965b-fda3-4396-b784-28ccfa5a736b/points
 ```
-
-## Architecture
-- The application is built in Go, utilizing the standard `net/http` package for HTTP handling.
-- Receipt data and points are stored in-memory for simplicity.
-- UUID generation is handled by the `github.com/google/uuid` package.
-
-## Future Improvements
-- Implement persistent storage for receipt data
-- Add input validation and error handling
-- Implement unit and integration tests
-- Consider using a web framework like Gin or Echo for more robust routing
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-```
-
-This README provides a comprehensive overview of your project, including setup instructions, usage examples, and potential future improvements. You may want to adjust some details based on your specific implementation or preferences. Also, consider adding sections on testing, contribution guidelines, or any specific configuration needed for your project.
